@@ -15,4 +15,16 @@
     --accent-1: #ff5555;
     --accent-2: #50fa7b;
 }
-  
+
+@media (prefers-color-scheme: light) 
+{
+    :root {
+        --dark: #acacac;
+        --medium: #b3b3ae;
+        --light: #f8f8f2;
+        --contrast-text: #282a36
+    }
+}
+:root {
+    font-size: calc(15px + 0.390625vw);
+}
